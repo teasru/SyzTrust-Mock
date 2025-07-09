@@ -1,0 +1,27 @@
+[
+  {
+    "name": "TEE_SetOperationKey",
+    "args": [
+      "operation",
+      "keyObject"
+    ]
+  },
+  {
+    "name": "TEE_CipherUpdate",
+    "args": [
+      "operation",
+      "srcData",
+      "srcLen",
+      "dstData"
+    ]
+  },
+  {
+    "name": "TEE_AllocateOperation",
+    "args": [
+      "operation",
+      "algorithm",
+      "mode",
+      "maxKeySize"
+    ]
+  }
+]
