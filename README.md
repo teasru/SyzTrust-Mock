@@ -51,7 +51,3 @@ This repo is perfect for:
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Built with ❤️ for simulated fuzzing projects.
