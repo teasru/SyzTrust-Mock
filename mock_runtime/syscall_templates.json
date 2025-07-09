@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TEE_AllocateOperation",
+    "args": ["operation", "algorithm", "mode", "maxKeySize"]
+  },
+  {
+    "name": "TEE_SetOperationKey",
+    "args": ["operation", "keyObject"]
+  },
+  {
+    "name": "TEE_CipherInit",
+    "args": ["operation", "iv", "ivLen"]
+  },
+  {
+    "name": "TEE_CipherUpdate",
+    "args": ["operation", "srcData", "srcLen", "dstData"]
+  }
+]
