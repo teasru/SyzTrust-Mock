@@ -41,7 +41,7 @@ Graph saved to: results/state_coverage.png
 
 ## 🎓 Educational Use
 
-This repo is perfect for:
+This is good for:
 - Operating Systems courses
 - Fuzzing framework demos
 - Security research prototypes
