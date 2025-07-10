@@ -2,7 +2,7 @@
 
 This is a **simulated version** of the SYZTRUST fuzzing framework, originally designed for Trusted OSes on IoT devices, adapted for **software-only environments** (e.g., Windows/Linux laptops) with **no hardware**.
 
-## 🔍 Features
+## Features
 
 - Syscall-based test case generation (simulated GP TEE API)
 - Composite feedback (code + state coverage)
@@ -10,7 +10,7 @@ This is a **simulated version** of the SYZTRUST fuzzing framework, originally de
 - Looped fuzzing with state/branch tracking
 - CLI mode with visualized state coverage graph
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python main.py
@@ -22,13 +22,13 @@ The fuzzer will:
 - Save crashing inputs in `results/crashes/`
 - Plot unique state hash growth in `results/state_coverage.png`
 
-## 📂 Structure
+## Structure
 
 - `main.py`: CLI fuzzer
 - `mock_runtime/`: Mock syscall executor & feedback generator
 - `results/`: Logs, graphs, and crash data
 
-## 📈 Sample Output
+## Sample Output
 
 ```
 #00 | Branches: 45 | State: d3c1af6e | Crash: False
@@ -38,14 +38,6 @@ Graph saved to: results/state_coverage.png
 ```
 
 ---
-
-## 🎓 Educational Use
-
-This repo is perfect for:
-- Operating Systems courses
-- Fuzzing framework demos
-- Security research prototypes
-
 ---
 
 ## 📄 License
