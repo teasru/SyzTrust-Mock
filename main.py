@@ -59,7 +59,7 @@ plt.ylabel("Unique States Seen")
 plt.grid(True)
 plt.tight_layout()
 plt.savefig(GRAPH_PATH)
-print(f"\n📈 Graph saved to: {GRAPH_PATH}")
+print(f"\n Graph saved to: {GRAPH_PATH}")
 
 if crash_files:
     print(f"\n {len(crash_files)} crash{'es' if len(crash_files) > 1 else ''} found!")
