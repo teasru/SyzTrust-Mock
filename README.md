@@ -36,6 +36,8 @@ The fuzzer will:
 ...
 Graph saved to: results/state_coverage.png
 ```
+## Sample Graph (State Coverage)
+<img width="1394" height="763" alt="Screenshot 2025-07-13 124550" src="https://github.com/user-attachments/assets/fd7a34d9-d75a-4a3e-a61a-cf42c180e8cb" />
 
 ---
 ---
